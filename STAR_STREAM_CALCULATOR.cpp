@@ -8,6 +8,8 @@ int device_number;
 int total = 0;
 int main() {
 	cout << "*******welcome to stremstar******\n please enter your plan" << endl;
+	cout << "We Have the following plans :\n *plan A\n *plan B\n *plan C" << endl;
+	cout << "You can select your plan by typing the letter" << endl;
 	cin >> plan;
 	switch (plan) {
 	case 'A':
@@ -48,6 +50,10 @@ int main() {
 		total = device_number * 2 + 15;
 		cout << "your total amount is " << total << " dollar" << endl;
 		break;
+	default :
+
+			cout << "please enter a plan" << endl;
+			break;
 	}
 
 
