@@ -10,6 +10,8 @@ int main() {
 
 	cout << "The product of the array elements is: " << total << endl;
 
+	return 0;
+
 }
 
 int productArray(array<int,6>myArray) {
