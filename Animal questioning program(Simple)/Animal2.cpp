@@ -4,7 +4,6 @@ Animal::Animal(string name, double weight) {
 	this->name = name;
 	this->weight = weight;
 }
-
 string Animal::getName()const {
 	return name;
 }
